@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHD Screening Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>ADHD Screening Quiz</h1>
+        <div id="quiz" class="fade-in">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <h2 id="question"></h2>
+            <div class="options">
+                <button class="option" onclick="selectOption('never')">Never</button>
+                <button class="option" onclick="selectOption('sometimes')">Sometimes</button>
+                <button class="option" onclick="selectOption('often')">Often</button>
+                <button class="option" onclick="selectOption('veryOften')">Very Often</button>
+            </div>
+        </div>
+        <div id="result" class="fade-in" style="display: none;">
+            <h2>Quiz Complete</h2>
+            <div class="progress-bar">
+                <div id="score-progress" class="progress"></div>
+            </div>
+            <p id="score"></p>
+            <div id="recommendations" class="recommendations"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
