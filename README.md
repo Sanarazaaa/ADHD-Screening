@@ -2,6 +2,11 @@
 
 A web-based interactive screening tool for ADHD symptoms assessment.
 
+# How it Looks
+
+![image](https://github.com/user-attachments/assets/02cc07c0-5963-49fc-98ae-a28e66c9e03b)
+
+
 ## Overview
 
 This project provides a simple and user-friendly ADHD screening quiz that helps individuals assess potential ADHD symptoms. The quiz presents questions with four response options and provides personalized recommendations based on the results.
